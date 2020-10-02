@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "75c6ef6e32e660f17b25c75af8d66552",
+    "revision": "46b88b224b466e2324a442ac9aa88fce",
     "url": "/hextile/index.html"
   },
   {
-    "revision": "258ab2e637b6e3b160ab",
+    "revision": "cc3d657c7d72c3c8aef1",
     "url": "/hextile/static/css/main.9379ce07.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hextile/static/js/2.cfbb8f6d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "258ab2e637b6e3b160ab",
-    "url": "/hextile/static/js/main.60c8213a.chunk.js"
+    "revision": "cc3d657c7d72c3c8aef1",
+    "url": "/hextile/static/js/main.80d9ce71.chunk.js"
   },
   {
     "revision": "8223602a67478a8919e8",

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/hextile/static/css/main.9379ce07.chunk.css",
-    "main.js": "/hextile/static/js/main.60c8213a.chunk.js",
-    "main.js.map": "/hextile/static/js/main.60c8213a.chunk.js.map",
+    "main.js": "/hextile/static/js/main.80d9ce71.chunk.js",
+    "main.js.map": "/hextile/static/js/main.80d9ce71.chunk.js.map",
     "runtime-main.js": "/hextile/static/js/runtime-main.890e0ac3.js",
     "runtime-main.js.map": "/hextile/static/js/runtime-main.890e0ac3.js.map",
     "static/js/2.cfbb8f6d.chunk.js": "/hextile/static/js/2.cfbb8f6d.chunk.js",
     "static/js/2.cfbb8f6d.chunk.js.map": "/hextile/static/js/2.cfbb8f6d.chunk.js.map",
     "index.html": "/hextile/index.html",
-    "precache-manifest.6adb0d079c433c0b7637953863489206.js": "/hextile/precache-manifest.6adb0d079c433c0b7637953863489206.js",
+    "precache-manifest.f0564bde79ab5aa652a071d6061c39fc.js": "/hextile/precache-manifest.f0564bde79ab5aa652a071d6061c39fc.js",
     "service-worker.js": "/hextile/service-worker.js",
     "static/css/main.9379ce07.chunk.css.map": "/hextile/static/css/main.9379ce07.chunk.css.map",
     "static/js/2.cfbb8f6d.chunk.js.LICENSE.txt": "/hextile/static/js/2.cfbb8f6d.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.890e0ac3.js",
     "static/js/2.cfbb8f6d.chunk.js",
     "static/css/main.9379ce07.chunk.css",
-    "static/js/main.60c8213a.chunk.js"
+    "static/js/main.80d9ce71.chunk.js"
   ]
 }
