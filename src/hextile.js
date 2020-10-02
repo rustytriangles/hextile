@@ -20,7 +20,7 @@ function makePolygon(verts, props) {
 
         // return path
         return <path fill={props.fillStyle}
-                 stroke={props.strokeColor}
+                     stroke={props.strokeColor}
                      stroke-width={props.strokeWidth}
                      d={path_data} />
     }
@@ -220,6 +220,18 @@ function makeTile4(corners, r, borderProps, ribbonProps) {
            </>
 }
 
+function makeHighlight(r, props) {
+    const c = r * Math.sqrt(3)/2;
+    const s = r/2;
+    const corners = [[0, -r],
+                     [c, -s],
+                     [c, s],
+                     [0, r],
+                     [-c, s],
+                     [-c,-s]];
+    return makePolygon(corners, props);
+}
+
 // Return an SVG object that draws the specified tile
 // index - Which tile (0-4)
 // r - Radius
@@ -249,4 +261,4 @@ function makeTile(index, r, borderProps, ribbonProps) {
     }
 }
 
-export {makeTile};
+export {makeHighlight, makeTile};
