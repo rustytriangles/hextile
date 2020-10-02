@@ -3,12 +3,7 @@ import {makeTile} from './hextile.js';
 const r = 120;
 const c = r * Math.sqrt(3)/2;
 const s = r/2;
-//const corners = [[0, -r],
-//                 [c, -s],
-//                 [c, s],
-//                 [0, r],
-//                 [-c, s],
-//                 [-c,-s]];
+
 const borderProps = {
     fillStyle: "none",
     strokeColor: "#DA6",
@@ -106,7 +101,7 @@ test('makeTile(0)', () => {
 
 test('makeTile(1)', () => {
 
-    const obj = makeTile(1, corners, r, borderProps, ribbonProps);
+    const obj = makeTile(1, r, borderProps, ribbonProps);
 
     // arc, arc, straight, polygon
     expect(obj.props.children.length).toBe(4);
@@ -152,7 +147,7 @@ test('makeTile(1)', () => {
 
 test('makeTile(2)', () => {
 
-    const obj = makeTile(2, corners, r, borderProps, ribbonProps);
+    const obj = makeTile(2, r, borderProps, ribbonProps);
 
     // arc, arc, arc, polygon
     expect(obj.props.children.length).toBe(4);
@@ -198,7 +193,7 @@ test('makeTile(2)', () => {
 
 test('makeTile(3)', () => {
 
-    const obj = makeTile(3, corners, r, borderProps, ribbonProps);
+    const obj = makeTile(3, r, borderProps, ribbonProps);
 
     // arc, straight, arc, polygon
     expect(obj.props.children.length).toBe(4);
@@ -244,7 +239,7 @@ test('makeTile(3)', () => {
 
 test('makeTile(4)', () => {
 
-    const obj = makeTile(4, corners, r, borderProps, ribbonProps);
+    const obj = makeTile(4, r, borderProps, ribbonProps);
 
     // 3 straights, polygon
     expect(obj.props.children.length).toBe(4);
