@@ -50,25 +50,27 @@ function makeArc(center, innerRadius, outerRadius, startAngle, endAngle, props) 
                  (center[1] + innerRadius*Math.sin(endAngle)).toFixed(2)];
     const pt4 = [(center[0] + innerRadius*Math.cos(startAngle)).toFixed(2),
                  (center[1] + innerRadius*Math.sin(startAngle)).toFixed(2)];
+    const r1 = innerRadius.toFixed(2);
+    const r2 = outerRadius.toFixed(2);
 
     let fill_data = '';
     fill_data += ' M ' + pt1[0] + ' ' + pt1[1];
-    fill_data += ' A ' + outerRadius + ' ' + outerRadius
+    fill_data += ' A ' + r2 + ' ' + r2
         + ' ' + 0 + ' ' + 0 + ' ' + 1
         + ' ' + pt2[0] + ' ' + pt2[1];
     fill_data += ' L ' + pt3[0] + ' ' + pt3[1];
-    fill_data += ' A ' + innerRadius + ' ' + innerRadius
+    fill_data += ' A ' + r1 + ' ' + r1
         + ' ' + 0 + ' ' + 0 + ' ' + 0
         + ' ' + pt4[0] + ' ' + pt4[1];
     fill_data += ' Z';
 
     let edge_data = '';
     edge_data += ' M ' + pt1[0] + ' ' + pt1[1];
-    edge_data += ' A ' + outerRadius + ' ' + outerRadius
+    edge_data += ' A ' + r2 + ' ' + r2
         + ' ' + 0 + ' ' + 0 + ' ' + 1
         + ' ' + pt2[0] + ' ' + pt2[1];
     edge_data += ' M ' + pt3[0] + ' ' + pt3[1];
-    edge_data += ' A ' + innerRadius + ' ' + innerRadius
+    edge_data += ' A ' + r1 + ' ' + r1
         + ' ' + 0 + ' ' + 0 + ' ' + 0
         + ' ' + pt4[0] + ' ' + pt4[1];
 
